@@ -1,0 +1,8 @@
+name: ivan petrov
+score: 57
+
+name: John Perz
+score: 89
+
+name: baba yaga
+score: 78
