@@ -14,4 +14,5 @@ def sum_list(list_num):
         total += element
     return total
 
+
 main()

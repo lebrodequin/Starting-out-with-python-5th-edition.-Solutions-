@@ -4,8 +4,7 @@ def main():
     for i in range(1, len(price_list)+1):
         week_num_list.append(i)
     print(week_num_list)
-
-
+    print(price_list)
 
 
 def make_list_from_file(filename):

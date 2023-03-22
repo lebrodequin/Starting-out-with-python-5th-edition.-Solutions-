@@ -12,4 +12,5 @@ def split_into_sentence(string):
             new_str += string[i]
     return new_str
 
+
 main()

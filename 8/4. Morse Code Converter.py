@@ -1,12 +1,12 @@
 file_var = open('morse.txt', 'r')
 symbol = []
-morsesymbol = []
+morse_symbol = []
 
 line = file_var.readline()
 while line != '':
     line = line.rstrip('\n')
     symbol += line[0]
-    morsesymbol.append(line[1:])
+    morse_symbol.append(line[1:])
     line = file_var.readline()
 
 file_var.close()
@@ -18,5 +18,4 @@ for sym in string:
     morse_string.append(position)
 
 for i in morse_string:
-    print(f'{morsesymbol[i]} ', end='')
-1
+    print(f'{morse_symbol[i]} ', end='')

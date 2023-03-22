@@ -1,5 +1,8 @@
-
-correct_answers = ['A', 'C', 'A', 'A', 'D', 'B', 'C', 'A', 'C', 'B', 'A', 'D', 'C', 'A', 'D', 'C', 'B', 'B', 'D', 'A']
+correct_answers = ['A', 'C', 'A', 'A',
+                   'D', 'B', 'C', 'A',
+                   'C', 'B', 'A', 'D',
+                   'C', 'A', 'D', 'C',
+                   'B', 'B', 'D', 'A']
 real_answers = []
 
 file_var = open('answers.txt', 'r')

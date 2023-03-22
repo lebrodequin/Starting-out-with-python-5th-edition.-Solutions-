@@ -2,9 +2,9 @@ def main():
     phone_num = input('input phone num XXX-XXX-XXXX: ')
     print(convert_phone_to_digits(phone_num))
 
+
 def convert_phone_to_digits(str_num):
     phone_num_digit = ''
-
     for sym in str_num:
         if sym.isdigit() or sym == '-':
             phone_num_digit += str(sym)
@@ -25,5 +25,5 @@ def convert_phone_to_digits(str_num):
 
     print(phone_num_digit)
 
-if __name__ == '__main__':
-    main()
+
+main()

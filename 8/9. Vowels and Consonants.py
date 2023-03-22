@@ -8,7 +8,8 @@ def num_of_vowels(string):
     num = 0
     for i in range(len(string)):
         if string[i].isalpha():
-            if string[i].lower() in ['a','e', 'i', 'o','u','y']:
+            if string[i].lower() in ['a', 'e', 'i',
+                                     'o', 'u', 'y']:
                 num += 1
     return num
 
@@ -17,10 +18,13 @@ def num_of_consonants(string):
     num = 0
     for i in range(len(string)):
         if string[i].isalpha():
-            if string[i].lower() in ['b','c', 'd', 'f','g','h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z']:
+            if string[i].lower() in ['b', 'c', 'd', 'f',
+                                     'g', 'h', 'j', 'k',
+                                     'l', 'm', 'n', 'p',
+                                     'q', 'r', 's', 't',
+                                     'v', 'w', 'x', 'z']:
                 num += 1
     return num
 
 
-if __name__ == '__main__':
-    main()
+main()
